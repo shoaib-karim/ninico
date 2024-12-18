@@ -103,7 +103,7 @@
                             </div>
                             <div class="card-body">
                                 <p id="successMessage" class="text-success">{{ session('message') }}</p>
-                                <div classle-responsive">
+                                <div class="table-responsive">
                                     <table class="table table-bordered text-nowrap border-bottom" id="basic-datatable">
                                         <thead>
                                             <tr>
