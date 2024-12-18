@@ -31,6 +31,8 @@ class CheckoutController extends Controller
             OrderDetail::newOrderDetails($this->order->id);
             return redirect('checkout/complete-order')->with('message', 'Order info saved successful');
         } else {
+            $this->order = Order::storeOrder($request);
+            OrderDetail::newOrderDetails($this->order->id);
             $sslCommerzPaymentController = new SslCommerzPaymentController();
             $sslCommerzPaymentController->index($request);
         }
