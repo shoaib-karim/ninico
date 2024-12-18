@@ -7,15 +7,15 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-#ninico - Laravel Project
+# ninico - Laravel Project
 Ecommerce Marketplace in Laravel
 
-##Requirements
+## Requirements
 PHP >= 8.0
 Composer
 Node.js and npm
 
-##Installation
+## Installation
 Clone the repository: https://github.com/shoaib-karim/ninico.git
 
 Navigate to the project directory:
